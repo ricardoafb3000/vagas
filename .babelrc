@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "razzle/babel", // NEEDED
+    "@babel/preset-env", 
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "transform-react-pug",
+    "transform-react-jsx"
+  ]
+}

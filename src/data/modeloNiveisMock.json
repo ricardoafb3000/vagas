@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "nome": "modelo nível 1",
+        "niveis": [ "Junior", "Pleno", "Senior" ]
+    },
+    {
+        "id": 2,
+        "nome": "modelo nível 2",
+        "niveis": [ "Junior", "Pleno", "Senior" ]
+    }
+]

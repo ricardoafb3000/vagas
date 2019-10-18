@@ -6,7 +6,7 @@
     "start": "razzle start",
     "build": "razzle build",
     "test": "razzle test --env=jsdom",
-    "start:prod": "NODE_ENV=production node build/server.js"
+    "start:prod": "node build/server.js"
   },
   "dependencies": {
     "express": "4.17.1",
@@ -15,9 +15,14 @@
     "react-dom": "16.9.0",
     "react-router-dom": "5.0.1",
     "reactstrap": "8.0.1",
-    "bootstrap": "4.3.1"
+    "bootstrap": "4.3.1",
+    "redux": "4.0.4",
+    "react-redux": "7.1.0",
+    "redux-thunk": "2.3.0",
+    "cross-fetch": "3.0.4"
   },
   "devDependencies": {
-    "babel-plugin-transform-react-pug": "^7.0.1"
+    "babel-plugin-transform-react-pug": "^7.0.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
   }
 }
